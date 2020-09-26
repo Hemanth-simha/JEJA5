@@ -25,6 +25,7 @@ public class MyFirstJdbcProgram {
 			String dburl = "jdbc:mysql://localhost:3306/jspiders?user=root&password=root";
 			con = DriverManager.getConnection(dburl);
 			
+			
 			//Issue SQL Query via Connection
 			String query = " select * from studentsinfo ";
 			stmt = con.createStatement();
